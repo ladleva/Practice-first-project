@@ -1,0 +1,89 @@
+* {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head {
+    background-image: url('https://i.pinimg.com/originals/00/1d/f4/001df465267b254a5045a230e4692837.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    opacity: .87;
+}
+
+.left,
+.right {
+    margin: 50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.advantages img {
+    width: 200px;
+    height: 200px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.advantages1 {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main img {
+    width: 300px;
+    height: 300px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+}
+
+.main2,
+.main6 {
+    background-color: lightgray;
+}
+
+.main2,
+.main3,
+.main6,
+.main7 {
+    max-width: 700px;
+}
+
+.main p,
+h4 {
+    text-align: center
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.client p {
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.end p {
+    font-size: 14px;
+}
