@@ -91,19 +91,28 @@ h3 {
     background-color: lightgray;
     padding-top: 50px;
     padding-bottom: 50px;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.33);
 }
 
 .end p {
     font-size: 14px;
 }
 
-.forms input:hover,
-.client input:hover {
+button:hover {
     background-color: lightblue;
+    cursor: pointer;
+    transform: scale(1) translateX(10px);
 }
 
-.forms input,
-.client input {
+button {
+    padding: 5px 15px;
+    border: lightblue 2px solid;
     transition: background-color;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
+}
+
+#more,
+#more1,
+#more2 {
+    display: none;
 }
