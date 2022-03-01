@@ -111,8 +111,6 @@ button {
     transition-duration: 0.5s;
 }
 
-#more,
-#more1,
-#more2 {
+.more {
     display: none;
 }
