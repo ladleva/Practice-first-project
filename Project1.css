@@ -9,8 +9,13 @@
     background-size: cover;
     height: 600px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     opacity: 0.87;
@@ -31,14 +36,22 @@ h1 {
 }
 
 .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 .advantages1 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
 }
@@ -58,10 +71,15 @@ h1 {
 }
 
 .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-left: 150px;
     padding-right: 150px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -91,6 +109,7 @@ h3 {
     background-color: lightgray;
     padding-top: 50px;
     padding-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.33);
     box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.33);
 }
 
@@ -101,13 +120,19 @@ h3 {
 button:hover {
     background-color: lightblue;
     cursor: pointer;
+    -webkit-transform: scale(1) translateX(10px);
+    -ms-transform: scale(1) translateX(10px);
     transform: scale(1) translateX(10px);
 }
 
 button {
     padding: 5px 15px;
     border: lightblue 2px solid;
+    -webkit-transition: background-color;
+    -o-transition: background-color;
     transition: background-color;
+    -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 
@@ -123,10 +148,20 @@ button {
         width: 100%;
     }
     .advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .main2,
@@ -175,9 +210,16 @@ button {
         height: 730px;
     }
     .advantages1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         margin-left: 0px;
         margin-right: 0px;
@@ -197,17 +239,37 @@ button {
         height: 750px;
     }
     .advantages {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .main {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 }
